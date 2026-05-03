@@ -1,0 +1,3 @@
+model_name,folder_name,load_ok,accuracy,macro_f1,overall_flip_rate
+6_adversarial,bert_adversarial,False,,,
+8_attribution_reg,bert_attr_reg,False,,,

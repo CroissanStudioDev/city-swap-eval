@@ -1,0 +1,4 @@
+model_name,power,epochs,accuracy,macro_f1,worst_gap,macro_gap,model_dir
+weighted_sampler_citypow15_2ep,1.5,2,0.5609800362976407,0.5609254778980721,0.28823529411764703,0.10718539504741544,notebooks/models/challengers/weighted_sampler_citypow15_2ep
+weighted_sampler_citypow10_2ep,1.0,2,0.5778584392014519,0.5830438876590894,0.3294117647058824,0.1314747757969671,notebooks/models/challengers/weighted_sampler_citypow10_2ep
+weighted_sampler_citypow05_2ep,0.5,2,0.5918330308529945,0.6016061464289595,0.3529411764705882,0.1480830533558504,notebooks/models/challengers/weighted_sampler_citypow05_2ep

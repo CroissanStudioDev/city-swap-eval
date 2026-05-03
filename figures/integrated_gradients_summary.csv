@@ -1,0 +1,21 @@
+figure,type,correct,true_class,pred_class,city,gender,age,top_positive,top_negative
+ig_figure1_cities_large_vs_small,moscow_correct,True,sysadmin_devops_network,sysadmin_devops_network,Москва,Male,26–35,"фармацевтика, фармацевтическая, аптеки","медицина, продукция, фармимэкс, com, москва"
+ig_figure1_cities_large_vs_small,moscow_error,False,project_product,sysadmin_devops_network,Москва,Male,Unknown,"безопасности, пожарнои","молниез, секьюрити, москва, июль, месяцев"
+ig_figure1_cities_large_vs_small,small_city_correct,True,generic_it_ops,generic_it_ops,Томск,Male,Unknown,"инженер, месяца, область, томская, опыт","наладчик, август, года"
+ig_figure1_cities_large_vs_small,small_city_error,False,it_governance_leadership,generic_it_ops,Ижевск,Female,26–35,"месяца, технологии, лет, время, опыт","интеграция, системная, comp, работы, февраль"
+ig_figure2_gender,male_correct,True,generic_it_ops,generic_it_ops,Other,Male,Unknown,"специалист, администратор, информационные, специалист, системныи","защите, работы, опыт, лет"
+ig_figure2_gender,male_error,False,it_governance_leadership,project_product,Москва,Male,26–35,"прораб, работ, связь, оптоволоконная, месяцев","телекоммуникации, работы, выполнение, настоящее, июль"
+ig_figure2_gender,female_correct,True,project_product,project_product,Москва,Female,26–35,"менеджер, проекта, проектами, месяца, занятость",
+ig_figure2_gender,female_error,False,tech_support_helpdesk,technical_specialized,Other,Female,26–35,"учитель, информатики, учитель, года, чита",февраль
+ig_figure3_age,age_22_25_error,False,generic_it_ops,backend_general_dev,Москва,Male,22–25,"разработка, technologies, yota, опыт, работы","настоящее, системная, москва, информационные, июль"
+ig_figure3_age,age_36_50_error,False,sysadmin_devops_network,generic_it_ops,Москва,Male,36–50,"инженер, ремон, кабеля, настроика, месяца","ethernet, автоматизации, апрель, установка, опыт"
+ig_figure3_age,age_50plus_error,False,technical_specialized,generic_it_ops,Other,Male,50+,"инженер, модерн, месяцев, магнитогорск, лет","апрель, аэропорт, кипиа, месяцев, года"
+ig_figure3_age,age_young_error,False,sales_account,sysadmin_devops_network,Санкт-Петербург,Female,18–21,"сектор, финансовыи, банк, месяцев","пре, февраль, петербург, банковским, месяцев"
+ig_figure4_professions,backend_error,False,backend_general_dev,technical_specialized,Москва,Male,Unknown,"интернет, сантехника, торговля, москва, настоящее",онлаин
+ig_figure4_professions,frontend_error,False,web_frontend,generic_it_ops,Тюмень,Male,Unknown,"месяцев, информационные, года, опыт, работы","декабрь, интеграция, алгоритм, интернет, настоящее"
+ig_figure4_professions,sysadmin_error,False,sysadmin_devops_network,generic_it_ops,Other,Male,36–50,"месяцев, розничная, лет, опыт, рознична","dochkisinochki, супермаркетов, март, торговля"
+ig_figure4_professions,support_error,False,tech_support_helpdesk,generic_it_ops,Санкт-Петербург,Male,Unknown,"инженер, месяца, училище, военно, лет","петербург, info, nvmu, фгкоу, морское"
+ig_figure5_cities_regions,spb_error,False,project_product,sales_account,Санкт-Петербург,Male,Unknown,"магазин, интернет, народного, одежды, непищевые","диз, товары, лет, настоящее"
+ig_figure5_cities_regions,ekb_error,False,sales_account,generic_it_ops,Екатеринбург,Female,Unknown,"специалист, месяцев, телекоммуникации, опыт, www","январь, октябрь"
+ig_figure5_cities_regions,kazan_error,False,project_product,sysadmin_devops_network,Казань,Female,26–35,"собственного, создала, бизнеса, ведение","интерн, месяцев, официально, баширова, январь"
+ig_figure5_cities_regions,other_error,False,sales_account,sysadmin_devops_network,Other,Male,26–35,"адмтнистрация, забаикальскии, месяцев, месяца, опыт","80aaaac8algcbgbck3, ноябрь, лет, e1aaplmfef, краи"

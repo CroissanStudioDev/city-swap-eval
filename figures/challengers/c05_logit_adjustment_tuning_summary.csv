@@ -1,0 +1,4 @@
+model_name,tau,epochs,accuracy,macro_f1,worst_gap,macro_gap,model_dir
+logit_adjustment_tau15_2ep,1.5,2,0.57005444646098,0.5960765899762928,0.3529411764705882,0.12127954591939243,notebooks/models/challengers/logit_adjustment_tau15_2ep
+logit_adjustment_tau10_2ep,1.0,2,0.5954627949183303,0.6102200200040417,0.35882352941176476,0.14191958654127015,notebooks/models/challengers/logit_adjustment_tau10_2ep
+logit_adjustment_tau05_2ep,0.5,2,0.5989110707803993,0.6172219522924072,0.37058823529411766,0.1258588814468865,notebooks/models/challengers/logit_adjustment_tau05_2ep

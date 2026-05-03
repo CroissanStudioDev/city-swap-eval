@@ -1,0 +1,10 @@
+{
+  "recommended_model": "rdrop_alpha10_2ep",
+  "method": "R-Drop + sqrt_rw",
+  "runs": 3,
+  "seeds": "7,13,21",
+  "macro_f1_mean": 0.6173737709183578,
+  "macro_f1_std": 0.004752660432165787,
+  "worst_gap_mean": 0.32941176470588235,
+  "macro_gap_mean": 0.1293208451443175
+}

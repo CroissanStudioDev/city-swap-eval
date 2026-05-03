@@ -1,0 +1,4 @@
+model_name,beta,gamma,epochs,accuracy,macro_f1,worst_gap,macro_gap,model_dir
+class_balanced_cbce_beta0999_2ep,0.999,0.0,2,0.600907441016334,0.6153106426463365,0.33529411764705885,0.13595535743530884,notebooks/models/challengers/class_balanced_cbce_beta0999_2ep
+class_balanced_cbfocal_beta0999_gamma20_2ep,0.999,2.0,2,0.6025408348457351,0.6123860647484901,0.3647058823529412,0.13887874981126286,notebooks/models/challengers/class_balanced_cbfocal_beta0999_gamma20_2ep
+class_balanced_cbce_beta099_2ep,0.99,0.0,2,0.6068965517241379,0.6207870115762675,0.3882352941176471,0.1372489536973299,notebooks/models/challengers/class_balanced_cbce_beta099_2ep
