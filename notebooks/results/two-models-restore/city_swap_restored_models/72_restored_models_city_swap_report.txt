@@ -1,0 +1,19 @@
+=== 72 restored models city-swap summary ===
+family: adversarial
+model_name: restored_adversarial
+status: load_failed
+accuracy: nan
+macro_f1: nan
+overall_flip_rate: nan
+model_path: /Users/natashaagapova/Documents/A-INNOPOLIS/A-THESIS/my-repository/notebooks/results/two-models-restore/restored_models/adversarial
+error: Model could not be loaded with available files
+------------------------------------------------------------
+family: attr_reg
+model_name: restored_attr_reg
+status: load_failed
+accuracy: nan
+macro_f1: nan
+overall_flip_rate: nan
+model_path: /Users/natashaagapova/Documents/A-INNOPOLIS/A-THESIS/my-repository/notebooks/results/two-models-restore/restored_models/attr_reg
+error: Model could not be loaded with available files
+------------------------------------------------------------

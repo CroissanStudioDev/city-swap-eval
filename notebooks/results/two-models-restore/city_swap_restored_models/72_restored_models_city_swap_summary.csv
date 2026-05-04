@@ -1,0 +1,3 @@
+family,model_name,model_path,accuracy,macro_f1,overall_flip_rate,status,error
+adversarial,restored_adversarial,/Users/natashaagapova/Documents/A-INNOPOLIS/A-THESIS/my-repository/notebooks/results/two-models-restore/restored_models/adversarial,,,,load_failed,Model could not be loaded with available files
+attr_reg,restored_attr_reg,/Users/natashaagapova/Documents/A-INNOPOLIS/A-THESIS/my-repository/notebooks/results/two-models-restore/restored_models/attr_reg,,,,load_failed,Model could not be loaded with available files

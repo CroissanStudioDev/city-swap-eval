@@ -1,0 +1,25 @@
+{
+  "family": "focal",
+  "model_name": "focal_gamma1_2ep",
+  "model_path": "/Users/natashaagapova/Documents/A-INNOPOLIS/A-THESIS/my-repository/notebooks/models/challengers/focal_gamma1_2ep",
+  "accuracy": 0.6041742286751361,
+  "macro_f1": 0.6191096286531808,
+  "overall_flip_rate": 0.0867513611615245,
+  "per_swap_city": {
+    "Москва": {
+      "flip_rate": 0.020326678765880218
+    },
+    "Екатеринбург": {
+      "flip_rate": 0.04736842105263158
+    },
+    "Новосибирск": {
+      "flip_rate": 0.04918330308529945
+    },
+    "Краснодар": {
+      "flip_rate": 0.040653357531760435
+    },
+    "Воронеж": {
+      "flip_rate": 0.03103448275862069
+    }
+  }
+}

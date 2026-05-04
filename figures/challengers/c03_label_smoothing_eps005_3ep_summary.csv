@@ -1,0 +1,2 @@
+model_name,smoothing,epochs,accuracy,macro_f1,worst_gap,macro_gap,model_dir
+label_smoothing_eps005_3ep,0.05,3,0.6005444646098004,0.6077019897577615,0.3529411764705882,0.15208489559914667,notebooks/models/challengers/label_smoothing_eps005_3ep

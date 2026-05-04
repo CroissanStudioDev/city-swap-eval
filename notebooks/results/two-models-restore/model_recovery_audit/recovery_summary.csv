@@ -1,0 +1,3 @@
+model,folder_name,training_notebook,verdict,folder_matches,best_checkpoint_matches,uses_save_pretrained_bert,saves_classifier_pt,saves_model_pt,saves_best_pt,saves_label_encoder,saves_city_encoder
+adversarial,bert_adversarial,notebooks/61_adversarial_debiasing.ipynb,can_reconstruct_hf,['notebooks/models/bert_adversarial'],['notebooks/models/bert_adversarial_best.pt'],True,True,True,True,True,True
+attr_reg,bert_attr_reg,notebooks/63_attribution_regularization_v2.ipynb,can_reconstruct_hf,['notebooks/models/bert_attr_reg'],['notebooks/models/bert_attr_reg_best.pt'],True,True,True,True,True,False

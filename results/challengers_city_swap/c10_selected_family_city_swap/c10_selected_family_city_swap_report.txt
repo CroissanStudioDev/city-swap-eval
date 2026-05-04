@@ -1,0 +1,46 @@
+=== C10 selected family city-swap summary ===
+family: label_smoothing
+model_name: label_smoothing_eps01_2ep
+status: ok
+accuracy: 0.6083484573502722
+macro_f1: 0.6229579754516105
+overall_flip_rate: 0.08911070780399274
+model_path: /Users/natashaagapova/Documents/A-INNOPOLIS/A-THESIS/my-repository/notebooks/models/challengers/label_smoothing_eps01_2ep
+error: -
+------------------------------------------------------------
+family: rdrop
+model_name: rdrop_alpha10_2ep
+status: ok
+accuracy: 0.6067150635208711
+macro_f1: 0.6200736985847453
+overall_flip_rate: 0.06206896551724138
+model_path: /Users/natashaagapova/Documents/A-INNOPOLIS/A-THESIS/my-repository/notebooks/models/challengers/rdrop_alpha10_2ep
+error: -
+------------------------------------------------------------
+family: class_balanced
+model_name: class_balanced_cbce_beta099_2ep
+status: ok
+accuracy: 0.6068965517241379
+macro_f1: 0.6207870115762675
+overall_flip_rate: 0.05771324863883848
+model_path: /Users/natashaagapova/Documents/A-INNOPOLIS/A-THESIS/my-repository/notebooks/models/challengers/class_balanced_cbce_beta099_2ep
+error: -
+------------------------------------------------------------
+family: groupdro
+model_name: bert_gdro_eta005_2ep
+status: ok
+accuracy: 0.5747731397459165
+macro_f1: 0.5901271899385397
+overall_flip_rate: 0.08747731397459166
+model_path: /Users/natashaagapova/Documents/A-INNOPOLIS/A-THESIS/my-repository/notebooks/models/challengers/bert_gdro_eta005_2ep
+error: -
+------------------------------------------------------------
+family: focal
+model_name: focal_gamma1_2ep
+status: ok
+accuracy: 0.6041742286751361
+macro_f1: 0.6191096286531808
+overall_flip_rate: 0.0867513611615245
+model_path: /Users/natashaagapova/Documents/A-INNOPOLIS/A-THESIS/my-repository/notebooks/models/challengers/focal_gamma1_2ep
+error: -
+------------------------------------------------------------

@@ -1,0 +1,368 @@
+{
+  "1_baseline": {
+    "model_dir": "bert_9classes_final",
+    "uses_scrubbing": false,
+    "accuracy": 0.608529945553539,
+    "macro_f1": 0.6206270877990566,
+    "overall_flip_rate": 0.07713248638838476,
+    "per_city_flip_rate": {
+      "Москва": {
+        "flip_rate": 0.019963702359346643,
+        "num_flipped": 110,
+        "num_total": 5510
+      },
+      "Екатеринбург": {
+        "flip_rate": 0.041742286751361164,
+        "num_flipped": 230,
+        "num_total": 5510
+      },
+      "Новосибирск": {
+        "flip_rate": 0.04301270417422867,
+        "num_flipped": 237,
+        "num_total": 5510
+      },
+      "Краснодар": {
+        "flip_rate": 0.04573502722323049,
+        "num_flipped": 252,
+        "num_total": 5510
+      },
+      "Воронеж": {
+        "flip_rate": 0.03176043557168784,
+        "num_flipped": 175,
+        "num_total": 5510
+      }
+    },
+    "per_class_flip_rate": {
+      "backend_general_dev": 0.04404145077720207,
+      "generic_it_ops": 0.0852359208523592,
+      "it_governance_leadership": 0.08647798742138364,
+      "project_product": 0.1,
+      "sales_account": 0.043137254901960784,
+      "sysadmin_devops_network": 0.09448319594166138,
+      "tech_support_helpdesk": 0.006493506493506494,
+      "technical_specialized": 0.04431599229287091,
+      "web_frontend": 0.023255813953488372
+    }
+  },
+  "2_groupdro": {
+    "model_dir": "bert_gdro_eta01_2ep",
+    "uses_scrubbing": false,
+    "accuracy": 0.5477313974591651,
+    "macro_f1": 0.552505752091434,
+    "overall_flip_rate": 0.11578947368421053,
+    "per_city_flip_rate": {
+      "Москва": {
+        "flip_rate": 0.02631578947368421,
+        "num_flipped": 145,
+        "num_total": 5510
+      },
+      "Екатеринбург": {
+        "flip_rate": 0.04773139745916515,
+        "num_flipped": 263,
+        "num_total": 5510
+      },
+      "Новосибирск": {
+        "flip_rate": 0.07295825771324864,
+        "num_flipped": 402,
+        "num_total": 5510
+      },
+      "Краснодар": {
+        "flip_rate": 0.0397459165154265,
+        "num_flipped": 219,
+        "num_total": 5510
+      },
+      "Воронеж": {
+        "flip_rate": 0.04646098003629764,
+        "num_flipped": 256,
+        "num_total": 5510
+      }
+    },
+    "per_class_flip_rate": {
+      "backend_general_dev": 0.05806451612903226,
+      "generic_it_ops": 0.16,
+      "it_governance_leadership": 0.06711409395973154,
+      "project_product": 0.021413276231263382,
+      "sales_account": 0.01639344262295082,
+      "sysadmin_devops_network": 0.14996637525218562,
+      "tech_support_helpdesk": 0.01282051282051282,
+      "technical_specialized": 0.11893203883495146,
+      "web_frontend": 0.023255813953488372
+    }
+  },
+  "3_scrubbing": {
+    "model_dir": "bert_scrubbing",
+    "uses_scrubbing": true,
+    "accuracy": 0.5941923774954628,
+    "macro_f1": 0.6106395818352593,
+    "overall_flip_rate": 0.0,
+    "per_city_flip_rate": {
+      "Москва": {
+        "flip_rate": 0.0,
+        "num_flipped": 0,
+        "num_total": 5510
+      },
+      "Екатеринбург": {
+        "flip_rate": 0.0,
+        "num_flipped": 0,
+        "num_total": 5510
+      },
+      "Новосибирск": {
+        "flip_rate": 0.0,
+        "num_flipped": 0,
+        "num_total": 5510
+      },
+      "Краснодар": {
+        "flip_rate": 0.0,
+        "num_flipped": 0,
+        "num_total": 5510
+      },
+      "Воронеж": {
+        "flip_rate": 0.0,
+        "num_flipped": 0,
+        "num_total": 5510
+      }
+    },
+    "per_class_flip_rate": {
+      "backend_general_dev": 0.0,
+      "generic_it_ops": 0.0,
+      "it_governance_leadership": 0.0,
+      "project_product": 0.0,
+      "sales_account": 0.0,
+      "sysadmin_devops_network": 0.0,
+      "tech_support_helpdesk": 0.0,
+      "technical_specialized": 0.0,
+      "web_frontend": 0.0
+    }
+  },
+  "4_oversampling": {
+    "model_dir": "bert_oversample_only",
+    "uses_scrubbing": false,
+    "accuracy": 0.6005444646098004,
+    "macro_f1": 0.611462531934235,
+    "overall_flip_rate": 0.10036297640653358,
+    "per_city_flip_rate": {
+      "Москва": {
+        "flip_rate": 0.025952813067150634,
+        "num_flipped": 143,
+        "num_total": 5510
+      },
+      "Екатеринбург": {
+        "flip_rate": 0.0633393829401089,
+        "num_flipped": 349,
+        "num_total": 5510
+      },
+      "Новосибирск": {
+        "flip_rate": 0.0544464609800363,
+        "num_flipped": 300,
+        "num_total": 5510
+      },
+      "Краснодар": {
+        "flip_rate": 0.05716878402903811,
+        "num_flipped": 315,
+        "num_total": 5510
+      },
+      "Воронеж": {
+        "flip_rate": 0.0484573502722323,
+        "num_flipped": 267,
+        "num_total": 5510
+      }
+    },
+    "per_class_flip_rate": {
+      "backend_general_dev": 0.07751937984496124,
+      "generic_it_ops": 0.13124470787468248,
+      "it_governance_leadership": 0.11818181818181818,
+      "project_product": 0.11492281303602059,
+      "sales_account": 0.046948356807511735,
+      "sysadmin_devops_network": 0.1009549795361528,
+      "tech_support_helpdesk": 0.04411764705882353,
+      "technical_specialized": 0.08228980322003578,
+      "web_frontend": 0.0
+    }
+  },
+  "5_focal_loss": {
+    "model_dir": "bert_focal_loss",
+    "uses_scrubbing": false,
+    "accuracy": 0.5925589836660617,
+    "macro_f1": 0.6134318484078286,
+    "overall_flip_rate": 0.06896551724137931,
+    "per_city_flip_rate": {
+      "Москва": {
+        "flip_rate": 0.019237749546279492,
+        "num_flipped": 106,
+        "num_total": 5510
+      },
+      "Екатеринбург": {
+        "flip_rate": 0.031941923774954625,
+        "num_flipped": 176,
+        "num_total": 5510
+      },
+      "Новосибирск": {
+        "flip_rate": 0.041742286751361164,
+        "num_flipped": 230,
+        "num_total": 5510
+      },
+      "Краснодар": {
+        "flip_rate": 0.03321234119782214,
+        "num_flipped": 183,
+        "num_total": 5510
+      },
+      "Воронеж": {
+        "flip_rate": 0.030852994555353903,
+        "num_flipped": 170,
+        "num_total": 5510
+      }
+    },
+    "per_class_flip_rate": {
+      "backend_general_dev": 0.019662921348314606,
+      "generic_it_ops": 0.09671302149178256,
+      "it_governance_leadership": 0.05973025048169557,
+      "project_product": 0.06808510638297872,
+      "sales_account": 0.02127659574468085,
+      "sysadmin_devops_network": 0.06999391357273281,
+      "tech_support_helpdesk": 0.006493506493506494,
+      "technical_specialized": 0.0772626931567329,
+      "web_frontend": 0.013793103448275862
+    }
+  },
+  "6_adversarial": {
+    "error": "failed to load"
+  },
+  "7_label_smoothing": {
+    "model_dir": "bert_label_smoothing",
+    "uses_scrubbing": false,
+    "accuracy": 0.5961887477313974,
+    "macro_f1": 0.6080545461159175,
+    "overall_flip_rate": 0.10725952813067151,
+    "per_city_flip_rate": {
+      "Москва": {
+        "flip_rate": 0.020871143375680582,
+        "num_flipped": 115,
+        "num_total": 5510
+      },
+      "Екатеринбург": {
+        "flip_rate": 0.050090744101633396,
+        "num_flipped": 276,
+        "num_total": 5510
+      },
+      "Новосибирск": {
+        "flip_rate": 0.050090744101633396,
+        "num_flipped": 276,
+        "num_total": 5510
+      },
+      "Краснодар": {
+        "flip_rate": 0.08021778584392014,
+        "num_flipped": 442,
+        "num_total": 5510
+      },
+      "Воронеж": {
+        "flip_rate": 0.03411978221415608,
+        "num_flipped": 188,
+        "num_total": 5510
+      }
+    },
+    "per_class_flip_rate": {
+      "backend_general_dev": 0.07178217821782178,
+      "generic_it_ops": 0.08658623136976579,
+      "it_governance_leadership": 0.09177820267686425,
+      "project_product": 0.14256198347107438,
+      "sales_account": 0.06896551724137931,
+      "sysadmin_devops_network": 0.16291793313069908,
+      "tech_support_helpdesk": 0.0,
+      "technical_specialized": 0.06918238993710692,
+      "web_frontend": 0.024390243902439025
+    }
+  },
+  "8_attribution_reg": {
+    "error": "failed to load"
+  },
+  "9_combined_scrub_gdro": {
+    "model_dir": "bert_debiased_combo",
+    "uses_scrubbing": true,
+    "accuracy": 0.4865698729582577,
+    "macro_f1": 0.47525862669979535,
+    "overall_flip_rate": 0.0,
+    "per_city_flip_rate": {
+      "Москва": {
+        "flip_rate": 0.0,
+        "num_flipped": 0,
+        "num_total": 5510
+      },
+      "Екатеринбург": {
+        "flip_rate": 0.0,
+        "num_flipped": 0,
+        "num_total": 5510
+      },
+      "Новосибирск": {
+        "flip_rate": 0.0,
+        "num_flipped": 0,
+        "num_total": 5510
+      },
+      "Краснодар": {
+        "flip_rate": 0.0,
+        "num_flipped": 0,
+        "num_total": 5510
+      },
+      "Воронеж": {
+        "flip_rate": 0.0,
+        "num_flipped": 0,
+        "num_total": 5510
+      }
+    },
+    "per_class_flip_rate": {
+      "backend_general_dev": 0.0,
+      "generic_it_ops": 0.0,
+      "it_governance_leadership": 0.0,
+      "project_product": 0.0,
+      "sales_account": 0.0,
+      "sysadmin_devops_network": 0.0,
+      "tech_support_helpdesk": 0.0,
+      "technical_specialized": 0.0,
+      "web_frontend": 0.0
+    }
+  },
+  "10_combined_best": {
+    "model_dir": "combined_scrubbing_groupdro",
+    "uses_scrubbing": true,
+    "accuracy": 0.5764065335753176,
+    "macro_f1": 0.5971173664042575,
+    "overall_flip_rate": 0.0,
+    "per_city_flip_rate": {
+      "Москва": {
+        "flip_rate": 0.0,
+        "num_flipped": 0,
+        "num_total": 5510
+      },
+      "Екатеринбург": {
+        "flip_rate": 0.0,
+        "num_flipped": 0,
+        "num_total": 5510
+      },
+      "Новосибирск": {
+        "flip_rate": 0.0,
+        "num_flipped": 0,
+        "num_total": 5510
+      },
+      "Краснодар": {
+        "flip_rate": 0.0,
+        "num_flipped": 0,
+        "num_total": 5510
+      },
+      "Воронеж": {
+        "flip_rate": 0.0,
+        "num_flipped": 0,
+        "num_total": 5510
+      }
+    },
+    "per_class_flip_rate": {
+      "backend_general_dev": 0.0,
+      "generic_it_ops": 0.0,
+      "it_governance_leadership": 0.0,
+      "project_product": 0.0,
+      "sales_account": 0.0,
+      "sysadmin_devops_network": 0.0,
+      "tech_support_helpdesk": 0.0,
+      "technical_specialized": 0.0,
+      "web_frontend": 0.0
+    }
+  }
+}

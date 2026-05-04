@@ -1,0 +1,3 @@
+model,folder,bert_dir_exists,bert_config_exists,bert_weight_file,classifier_pt_exists,model_pt_exists,label_encoder_exists,city_encoder_exists,tokenizer_json_exists,reconstructable_hf
+adversarial,notebooks/models/bert_adversarial,True,True,notebooks/models/bert_adversarial/bert/model.safetensors,True,True,True,True,True,True
+attr_reg,notebooks/models/bert_attr_reg,True,True,notebooks/models/bert_attr_reg/bert/model.safetensors,True,True,True,False,True,True

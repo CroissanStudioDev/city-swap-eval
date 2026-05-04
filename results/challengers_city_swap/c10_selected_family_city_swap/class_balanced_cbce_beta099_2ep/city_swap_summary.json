@@ -1,0 +1,25 @@
+{
+  "family": "class_balanced",
+  "model_name": "class_balanced_cbce_beta099_2ep",
+  "model_path": "/Users/natashaagapova/Documents/A-INNOPOLIS/A-THESIS/my-repository/notebooks/models/challengers/class_balanced_cbce_beta099_2ep",
+  "accuracy": 0.6068965517241379,
+  "macro_f1": 0.6207870115762675,
+  "overall_flip_rate": 0.05771324863883848,
+  "per_swap_city": {
+    "Москва": {
+      "flip_rate": 0.013793103448275862
+    },
+    "Екатеринбург": {
+      "flip_rate": 0.03284936479128857
+    },
+    "Новосибирск": {
+      "flip_rate": 0.02885662431941924
+    },
+    "Краснодар": {
+      "flip_rate": 0.02885662431941924
+    },
+    "Воронеж": {
+      "flip_rate": 0.026134301270417423
+    }
+  }
+}

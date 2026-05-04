@@ -1,0 +1,4 @@
+model_name,kl_alpha,epochs,accuracy,macro_f1,worst_gap,macro_gap,model_dir
+rdrop_alpha10_2ep,1.0,2,0.6067150635208711,0.6200736985847453,0.31176470588235294,0.1268109708476176,notebooks/models/challengers/rdrop_alpha10_2ep
+rdrop_alpha05_2ep,0.5,2,0.6056261343012704,0.6182892446683975,0.3294117647058824,0.11569789522325961,notebooks/models/challengers/rdrop_alpha05_2ep
+rdrop_alpha20_2ep,2.0,2,0.6041742286751361,0.6207123920042265,0.33529411764705885,0.13752268616784655,notebooks/models/challengers/rdrop_alpha20_2ep

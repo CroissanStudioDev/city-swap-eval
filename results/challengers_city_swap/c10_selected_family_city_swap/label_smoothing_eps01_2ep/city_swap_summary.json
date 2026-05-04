@@ -1,0 +1,25 @@
+{
+  "family": "label_smoothing",
+  "model_name": "label_smoothing_eps01_2ep",
+  "model_path": "/Users/natashaagapova/Documents/A-INNOPOLIS/A-THESIS/my-repository/notebooks/models/challengers/label_smoothing_eps01_2ep",
+  "accuracy": 0.6083484573502722,
+  "macro_f1": 0.6229579754516105,
+  "overall_flip_rate": 0.08911070780399274,
+  "per_swap_city": {
+    "Москва": {
+      "flip_rate": 0.021415607985480943
+    },
+    "Екатеринбург": {
+      "flip_rate": 0.04500907441016334
+    },
+    "Новосибирск": {
+      "flip_rate": 0.03901996370235935
+    },
+    "Краснодар": {
+      "flip_rate": 0.050816696914700546
+    },
+    "Воронеж": {
+      "flip_rate": 0.041016333938294014
+    }
+  }
+}

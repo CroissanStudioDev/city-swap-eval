@@ -1,0 +1,4 @@
+model_name,smoothing,epochs,accuracy,macro_f1,worst_gap,macro_gap,model_dir
+label_smoothing_eps01_2ep,0.1,2,0.6083484573502722,0.6229579754516105,0.3176470588235294,0.13578764649169253,notebooks/models/challengers/label_smoothing_eps01_2ep
+label_smoothing_eps005_2ep,0.05,2,0.6052631578947368,0.6198089455585276,0.32352941176470584,0.12769331325485783,notebooks/models/challengers/label_smoothing_eps005_2ep
+label_smoothing_eps015_2ep,0.15,2,0.5994555353901997,0.6157850253733415,0.3411764705882353,0.141311688916861,notebooks/models/challengers/label_smoothing_eps015_2ep

@@ -1,0 +1,25 @@
+{
+  "family": "rdrop",
+  "model_name": "rdrop_alpha10_2ep",
+  "model_path": "/Users/natashaagapova/Documents/A-INNOPOLIS/A-THESIS/my-repository/notebooks/models/challengers/rdrop_alpha10_2ep",
+  "accuracy": 0.6067150635208711,
+  "macro_f1": 0.6200736985847453,
+  "overall_flip_rate": 0.06206896551724138,
+  "per_swap_city": {
+    "Москва": {
+      "flip_rate": 0.013793103448275862
+    },
+    "Екатеринбург": {
+      "flip_rate": 0.03938294010889292
+    },
+    "Новосибирск": {
+      "flip_rate": 0.027404718693284938
+    },
+    "Краснодар": {
+      "flip_rate": 0.02885662431941924
+    },
+    "Воронеж": {
+      "flip_rate": 0.023411978221415608
+    }
+  }
+}

@@ -1,0 +1,20 @@
+# Virtual environments
+.DS_Store
+venv/
+.venv/
+data/
+models/
+*.pkl
+*.pt
+*.joblib
+runs/
+*.ipynb_checkpoints
+bert_9classes/
+bert_9classes_sqrt_rw_2ep/
+bert_9classes_gdro/
+drafts/
+local_bert/
+notebooks/notebooks/
+notebooks/00_eda.ipynb
+output/combined_scrubbing_groupdro/
+archive/

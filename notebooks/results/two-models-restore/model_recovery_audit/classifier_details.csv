@@ -1,0 +1,3 @@
+model,exists,path,num_keys,sample_keys,classifier_keys,error
+adversarial,True,notebooks/models/bert_adversarial/classifier.pt,2,"['1.bias', '1.weight']",[],
+attr_reg,True,notebooks/models/bert_attr_reg/classifier.pt,2,"['1.bias', '1.weight']",[],

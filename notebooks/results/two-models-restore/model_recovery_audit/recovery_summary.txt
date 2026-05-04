@@ -1,0 +1,17 @@
+=== Recovery Summary ===
+model: adversarial
+folder_name: bert_adversarial
+verdict: can_reconstruct_hf
+training_notebook: notebooks/61_adversarial_debiasing.ipynb
+folder_matches: notebooks/models/bert_adversarial
+best_checkpoint_matches: notebooks/models/bert_adversarial_best.pt
+save_hints: bert=True, classifier_pt=True, model_pt=True, best_pt=True, label_encoder=True, city_encoder=True
+------------------------------------------------------------
+model: attr_reg
+folder_name: bert_attr_reg
+verdict: can_reconstruct_hf
+training_notebook: notebooks/63_attribution_regularization_v2.ipynb
+folder_matches: notebooks/models/bert_attr_reg
+best_checkpoint_matches: notebooks/models/bert_attr_reg_best.pt
+save_hints: bert=True, classifier_pt=True, model_pt=True, best_pt=True, label_encoder=True, city_encoder=False
+------------------------------------------------------------

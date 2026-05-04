@@ -1,0 +1,4 @@
+model_name,gamma,epochs,accuracy,macro_f1,worst_gap,macro_gap,model_dir
+focal_gamma1_2ep,1.0,2,0.6041742286751361,0.6191096286531808,0.32352941176470584,0.13367678876592926,notebooks/models/challengers/focal_gamma1_2ep
+focal_gamma3_2ep,3.0,2,0.6003629764065336,0.6170633941368242,0.34705882352941175,0.14257263220089036,notebooks/models/challengers/focal_gamma3_2ep
+focal_gamma2_2ep,2.0,2,0.5963702359346642,0.6142637601745481,0.37058823529411766,0.13438261815452598,notebooks/models/challengers/focal_gamma2_2ep

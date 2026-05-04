@@ -1,0 +1,13 @@
+=== Classifier Sidecars ===
+model: adversarial
+path: notebooks/models/bert_adversarial/classifier.pt
+num_keys: 2
+classifier_keys: -
+error: -
+------------------------------------------------------------
+model: attr_reg
+path: notebooks/models/bert_attr_reg/classifier.pt
+num_keys: 2
+classifier_keys: -
+error: -
+------------------------------------------------------------

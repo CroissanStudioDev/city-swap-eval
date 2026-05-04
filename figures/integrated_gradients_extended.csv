@@ -1,0 +1,9 @@
+type,true_class,pred_class,city,top_positive,top_negative
+small_city,it_governance_leadership,project_product,Воронеж,"ритеил, специалист, работе, мобильныи, розничная",сеть
+moscow_ok,sysadmin_devops_network,sysadmin_devops_network,,"фармацевтика, фармацевтическая","медицина, продукция, фармимэкс, com, москва"
+other_city,tech_support_helpdesk,technical_specialized,Other,"учитель, информатики, учитель, года, чита",
+support_err,tech_support_helpdesk,generic_it_ops,Санкт-Петербург,"инженер, месяца, училище, военно, лет","петербург, info, nvmu, фгкоу, морское"
+pm_err,project_product,sysadmin_devops_network,Москва,"безопасности, пожарнои","молниез, секьюрити, москва, июль, месяцев"
+sales_err,sales_account,sysadmin_devops_network,Other,"адмтнистрация, забаикальскии, месяцев, месяца","80aaaac8algcbgbck3, ноябрь, лет, e1aaplmfef, краи"
+spb_err,tech_support_helpdesk,generic_it_ops,Санкт-Петербург,"инженер, месяца, училище, военно, лет","петербург, info, nvmu, фгкоу, морское"
+gov_err,it_governance_leadership,project_product,Москва,"прораб, работ, связь, оптоволоконная, месяцев","телекоммуникации, работы"

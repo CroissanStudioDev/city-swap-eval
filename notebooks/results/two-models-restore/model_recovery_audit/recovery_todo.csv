@@ -1,0 +1,3 @@
+model,verdict,missing_or_needed,next_action
+adversarial,can_reconstruct_hf,,Build a temporary HF folder from bert/ + classifier.pt + tokenizer + label encoder.
+attr_reg,can_reconstruct_hf,,Build a temporary HF folder from bert/ + classifier.pt + tokenizer + label encoder.

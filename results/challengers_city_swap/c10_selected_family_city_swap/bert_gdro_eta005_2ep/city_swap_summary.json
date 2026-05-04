@@ -1,0 +1,25 @@
+{
+  "family": "groupdro",
+  "model_name": "bert_gdro_eta005_2ep",
+  "model_path": "/Users/natashaagapova/Documents/A-INNOPOLIS/A-THESIS/my-repository/notebooks/models/challengers/bert_gdro_eta005_2ep",
+  "accuracy": 0.5747731397459165,
+  "macro_f1": 0.5901271899385397,
+  "overall_flip_rate": 0.08747731397459166,
+  "per_swap_city": {
+    "Москва": {
+      "flip_rate": 0.015970961887477313
+    },
+    "Екатеринбург": {
+      "flip_rate": 0.04373865698729583
+    },
+    "Новосибирск": {
+      "flip_rate": 0.035571687840290384
+    },
+    "Краснодар": {
+      "flip_rate": 0.033030852994555354
+    },
+    "Воронеж": {
+      "flip_rate": 0.04827586206896552
+    }
+  }
+}

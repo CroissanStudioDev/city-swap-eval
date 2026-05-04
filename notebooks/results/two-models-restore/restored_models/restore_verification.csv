@@ -1,0 +1,3 @@
+model,restore_dir,load_ok,tokenizer_ok,num_labels,classifier_shape,error
+adversarial,,False,False,,,"RuntimeError: Classifier state mismatch. Restored keys: []; expected: ['bias', 'weight']"
+attr_reg,,False,False,,,"RuntimeError: Classifier state mismatch. Restored keys: []; expected: ['bias', 'weight']"

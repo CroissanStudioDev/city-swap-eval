@@ -1,0 +1,13 @@
+=== Checkpoint Details ===
+model: adversarial
+path: notebooks/models/bert_adversarial_best.pt
+num_keys: 205
+classifier_keys: classifier.1.bias, classifier.1.weight
+error: -
+------------------------------------------------------------
+model: attr_reg
+path: notebooks/models/bert_attr_reg_best.pt
+num_keys: 201
+classifier_keys: classifier.1.bias, classifier.1.weight
+error: -
+------------------------------------------------------------
