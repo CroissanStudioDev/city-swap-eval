@@ -1,0 +1,17 @@
+{
+  "n_total_rows": 17,
+  "n_ok_rows": 13,
+  "n_failed_rows": 4,
+  "best_city_swap_stability": {
+    "model_name": "bert_scrubbing",
+    "source_run": "70_batch",
+    "overall_flip_rate": 0.0,
+    "swap_macro_f1": 0.6106395818352593
+  },
+  "best_swap_macro_f1": {
+    "model_name": "label_smoothing_eps01_2ep",
+    "source_run": "c10_challengers",
+    "overall_flip_rate": 0.0891107078039927,
+    "swap_macro_f1": 0.6229579754516105
+  }
+}
